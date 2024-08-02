@@ -1,0 +1,9 @@
+hadoop fs -mkdir /user
+hadoop fs -mkdir /user/input
+
+hadoop fs -mkdir /user/input/IndianStocks
+
+#Load all the local data to hadoop
+hadoop fs -put * /user/input/IndianStocks/
+
+hadoop fs -ls /user/input/IndianStocks

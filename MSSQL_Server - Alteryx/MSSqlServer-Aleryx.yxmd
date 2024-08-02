@@ -1,0 +1,806 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <Query />
+            <TableStyle>Quoted</TableStyle>
+            <PostSQL />
+            <CacheData>False</CacheData>
+            <Table>"BigDataProject"."dbo"."cnbc_sentiment"</Table>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">6cc2270c-b09e-4400-9a3b-d381255a9571</Connection>
+            <NoProgress>True</NoProgress>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:Microsoft SQL Server ODBC DSN-less
+Table="BigDataProject"."dbo"."cnbc...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" size="50" source="File: &quot;BigDataProject&quot;.&quot;dbo&quot;.&quot;cnbc_sentiment&quot;" type="V_String" />
+            <Field name="Headlines" size="255" source="File: &quot;BigDataProject&quot;.&quot;dbo&quot;.&quot;cnbc_sentiment&quot;" type="V_String" />
+            <Field name="Time" size="50" source="File: &quot;BigDataProject&quot;.&quot;dbo&quot;.&quot;cnbc_sentiment&quot;" type="V_String" />
+            <Field name="Sentiment" size="50" source="File: &quot;BigDataProject&quot;.&quot;dbo&quot;.&quot;cnbc_sentiment&quot;" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <Query />
+            <TableStyle>Quoted</TableStyle>
+            <PostSQL />
+            <CacheData>False</CacheData>
+            <Table>"BigDataProject"."dbo"."guardian_sentiment"</Table>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">6cc2270c-b09e-4400-9a3b-d381255a9571</Connection>
+            <NoProgress>True</NoProgress>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:Microsoft SQL Server ODBC DSN-less
+Table="BigDataProject"."dbo"."guar...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" size="50" source="File: &quot;BigDataProject&quot;.&quot;dbo&quot;.&quot;guardian_sentiment&quot;" type="V_String" />
+            <Field name="Time" size="50" source="File: &quot;BigDataProject&quot;.&quot;dbo&quot;.&quot;guardian_sentiment&quot;" type="V_String" />
+            <Field name="Headlines" size="255" source="File: &quot;BigDataProject&quot;.&quot;dbo&quot;.&quot;guardian_sentiment&quot;" type="V_String" />
+            <Field name="Sentiment" size="50" source="File: &quot;BigDataProject&quot;.&quot;dbo&quot;.&quot;guardian_sentiment&quot;" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <Query />
+            <TableStyle>Quoted</TableStyle>
+            <PostSQL />
+            <CacheData>False</CacheData>
+            <Table>"BigDataProject"."dbo"."reuters_sentiment"</Table>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">6cc2270c-b09e-4400-9a3b-d381255a9571</Connection>
+            <NoProgress>True</NoProgress>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:Microsoft SQL Server ODBC DSN-less
+Table="BigDataProject"."dbo"."reut...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" size="50" source="File: &quot;BigDataProject&quot;.&quot;dbo&quot;.&quot;reuters_sentiment&quot;" type="V_String" />
+            <Field name="Headlines" size="255" source="File: &quot;BigDataProject&quot;.&quot;dbo&quot;.&quot;reuters_sentiment&quot;" type="V_String" />
+            <Field name="Time" size="50" source="File: &quot;BigDataProject&quot;.&quot;dbo&quot;.&quot;reuters_sentiment&quot;" type="V_String" />
+            <Field name="Sentiment" size="50" source="File: &quot;BigDataProject&quot;.&quot;dbo&quot;.&quot;reuters_sentiment&quot;" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="162" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ID" selected="True" />
+            <SelectField field="Headlines" selected="True" />
+            <SelectField field="Time" selected="True" />
+            <SelectField field="Sentiment" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="162" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="REGEX_Replace([Time], &quot;.* (\d{1,2} \w{3,} \d{4}).*&quot;, &quot;$1&quot;)&#xA;" field="Time" size="50" type="V_String" enabled="true" />
+            <FormulaField expression="DateTimeParse([Time], &quot;%d %b %Y&quot;)&#xA;" field="Time" size="50" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Time = REGEX_Replace([Time], ".* (\d{1,2} \w{3,} \d{4}).*", "$1")
+
+Time = DateTi...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="162" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeParse([Time], &quot;%b %d %Y&quot;)&#xA;" field="Time" size="50" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Time = DateTimeParse([Time], "%b %d %Y")
+
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="270" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF REGEX_Match([Time], &quot;^\d{1,2}-\w{3}-\d{2}$&quot;) THEN&#xA;  DateTimeFormat(DateTimeParse([Time], &quot;%d-%b-%y&quot;), &quot;%Y-%m-%d&quot;)&#xA;ELSE&#xA;  DateTimeFormat(DateTimeParse([Time] + &quot;-2023&quot;, &quot;%b-%d-%Y&quot;), &quot;%Y-%m-%d&quot;)&#xA;ENDIF&#xA;" field="Time" size="50" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Time = IF REGEX_Match([Time], "^\d{1,2}-\w{3}-\d{2}$") THEN
+  DateTimeFormat(Dat...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="594" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="894" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Sentiment] IN ('1', '2') THEN &quot;negative&quot;&#xA;ELSEIF [Sentiment] = '3' THEN &quot;neutral&quot;&#xA;ELSEIF [Sentiment] IN ('4', '5') THEN &quot;positive&quot;&#xA;ELSE &quot;unknown&quot; ENDIF&#xA;" field="Sentiment" size="50" type="V_String" enabled="true" />
+            <FormulaField expression="REGEX_Replace([Headlines], &quot;[^a-zA-Z0-9\s\-]&quot;, &quot;&quot;)&#xA;" field="Headlines" size="255" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Sentiment = IF [Sentiment] IN ('1', '2') THEN "negative"
+ELSEIF [Sentiment] = '3...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings>
+        <Position x="1062" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"ID","Headlines","Time","Sentiment"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">True</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="774" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Time" selected="True" type="Date" size="10" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="450" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <Query>select [BTC-2017min].[date],
+	[BTC-2017min].[symbol],
+	[BTC-2017min].[open],
+	[BTC-2017min].[high],
+	[BTC-2017min].[low],
+	[BTC-2017min].[close] 
+from [BTC-2017min]</Query>
+            <TableStyle>Quoted</TableStyle>
+            <PostSQL />
+            <CacheData>False</CacheData>
+            <Table />
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">6cc2270c-b09e-4400-9a3b-d381255a9571</Connection>
+            <NoProgress>True</NoProgress>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:Microsoft SQL Server ODBC DSN-less
+Query=select [BTC-2017min].[date],...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="date" size="50" source="File: select [BTC-2017min].[date],&#xA;	[BTC-2017min].[symbol],&#xA;	[BTC-2017min].[open],&#xA;	[BTC-2017min].[high],&#xA;	[BTC-2017min].[low],&#xA;	[BTC-2017min].[close] &#xA;from [BTC-2017min]" type="V_String" />
+            <Field name="symbol" size="50" source="File: select [BTC-2017min].[date],&#xA;	[BTC-2017min].[symbol],&#xA;	[BTC-2017min].[open],&#xA;	[BTC-2017min].[high],&#xA;	[BTC-2017min].[low],&#xA;	[BTC-2017min].[close] &#xA;from [BTC-2017min]" type="V_String" />
+            <Field name="open" size="50" source="File: select [BTC-2017min].[date],&#xA;	[BTC-2017min].[symbol],&#xA;	[BTC-2017min].[open],&#xA;	[BTC-2017min].[high],&#xA;	[BTC-2017min].[low],&#xA;	[BTC-2017min].[close] &#xA;from [BTC-2017min]" type="V_String" />
+            <Field name="high" size="50" source="File: select [BTC-2017min].[date],&#xA;	[BTC-2017min].[symbol],&#xA;	[BTC-2017min].[open],&#xA;	[BTC-2017min].[high],&#xA;	[BTC-2017min].[low],&#xA;	[BTC-2017min].[close] &#xA;from [BTC-2017min]" type="V_String" />
+            <Field name="low" size="50" source="File: select [BTC-2017min].[date],&#xA;	[BTC-2017min].[symbol],&#xA;	[BTC-2017min].[open],&#xA;	[BTC-2017min].[high],&#xA;	[BTC-2017min].[low],&#xA;	[BTC-2017min].[close] &#xA;from [BTC-2017min]" type="V_String" />
+            <Field name="close" size="50" source="File: select [BTC-2017min].[date],&#xA;	[BTC-2017min].[symbol],&#xA;	[BTC-2017min].[open],&#xA;	[BTC-2017min].[high],&#xA;	[BTC-2017min].[low],&#xA;	[BTC-2017min].[close] &#xA;from [BTC-2017min]" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="882" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="450" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <Query>select [BTC-2018min].[date],
+	[BTC-2018min].[symbol],
+	[BTC-2018min].[open],
+	[BTC-2018min].[high],
+	[BTC-2018min].[low],
+	[BTC-2018min].[close] 
+from [BTC-2018min]</Query>
+            <TableStyle>Quoted</TableStyle>
+            <PostSQL />
+            <CacheData>False</CacheData>
+            <Table />
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">6cc2270c-b09e-4400-9a3b-d381255a9571</Connection>
+            <NoProgress>True</NoProgress>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:Microsoft SQL Server ODBC DSN-less
+Query=select [BTC-2018min].[date],...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="date" size="50" source="File: select [BTC-2018min].[date],&#xA;	[BTC-2018min].[symbol],&#xA;	[BTC-2018min].[open],&#xA;	[BTC-2018min].[high],&#xA;	[BTC-2018min].[low],&#xA;	[BTC-2018min].[close] &#xA;from [BTC-2018min]" type="V_String" />
+            <Field name="symbol" size="50" source="File: select [BTC-2018min].[date],&#xA;	[BTC-2018min].[symbol],&#xA;	[BTC-2018min].[open],&#xA;	[BTC-2018min].[high],&#xA;	[BTC-2018min].[low],&#xA;	[BTC-2018min].[close] &#xA;from [BTC-2018min]" type="V_String" />
+            <Field name="open" size="50" source="File: select [BTC-2018min].[date],&#xA;	[BTC-2018min].[symbol],&#xA;	[BTC-2018min].[open],&#xA;	[BTC-2018min].[high],&#xA;	[BTC-2018min].[low],&#xA;	[BTC-2018min].[close] &#xA;from [BTC-2018min]" type="V_String" />
+            <Field name="high" size="50" source="File: select [BTC-2018min].[date],&#xA;	[BTC-2018min].[symbol],&#xA;	[BTC-2018min].[open],&#xA;	[BTC-2018min].[high],&#xA;	[BTC-2018min].[low],&#xA;	[BTC-2018min].[close] &#xA;from [BTC-2018min]" type="V_String" />
+            <Field name="low" size="50" source="File: select [BTC-2018min].[date],&#xA;	[BTC-2018min].[symbol],&#xA;	[BTC-2018min].[open],&#xA;	[BTC-2018min].[high],&#xA;	[BTC-2018min].[low],&#xA;	[BTC-2018min].[close] &#xA;from [BTC-2018min]" type="V_String" />
+            <Field name="close" size="50" source="File: select [BTC-2018min].[date],&#xA;	[BTC-2018min].[symbol],&#xA;	[BTC-2018min].[open],&#xA;	[BTC-2018min].[high],&#xA;	[BTC-2018min].[low],&#xA;	[BTC-2018min].[close] &#xA;from [BTC-2018min]" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="450" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <Query>select [BTC-2019min].[date],
+	[BTC-2019min].[symbol],
+	[BTC-2019min].[open],
+	[BTC-2019min].[high],
+	[BTC-2019min].[low],
+	[BTC-2019min].[close] 
+from [BTC-2019min]</Query>
+            <TableStyle>Quoted</TableStyle>
+            <PostSQL />
+            <CacheData>False</CacheData>
+            <Table />
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">6cc2270c-b09e-4400-9a3b-d381255a9571</Connection>
+            <NoProgress>True</NoProgress>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:Microsoft SQL Server ODBC DSN-less
+Query=select [BTC-2019min].[date],...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="date" size="50" source="File: select [BTC-2019min].[date],&#xA;	[BTC-2019min].[symbol],&#xA;	[BTC-2019min].[open],&#xA;	[BTC-2019min].[high],&#xA;	[BTC-2019min].[low],&#xA;	[BTC-2019min].[close] &#xA;from [BTC-2019min]" type="V_String" />
+            <Field name="symbol" size="50" source="File: select [BTC-2019min].[date],&#xA;	[BTC-2019min].[symbol],&#xA;	[BTC-2019min].[open],&#xA;	[BTC-2019min].[high],&#xA;	[BTC-2019min].[low],&#xA;	[BTC-2019min].[close] &#xA;from [BTC-2019min]" type="V_String" />
+            <Field name="open" size="50" source="File: select [BTC-2019min].[date],&#xA;	[BTC-2019min].[symbol],&#xA;	[BTC-2019min].[open],&#xA;	[BTC-2019min].[high],&#xA;	[BTC-2019min].[low],&#xA;	[BTC-2019min].[close] &#xA;from [BTC-2019min]" type="V_String" />
+            <Field name="high" size="50" source="File: select [BTC-2019min].[date],&#xA;	[BTC-2019min].[symbol],&#xA;	[BTC-2019min].[open],&#xA;	[BTC-2019min].[high],&#xA;	[BTC-2019min].[low],&#xA;	[BTC-2019min].[close] &#xA;from [BTC-2019min]" type="V_String" />
+            <Field name="low" size="50" source="File: select [BTC-2019min].[date],&#xA;	[BTC-2019min].[symbol],&#xA;	[BTC-2019min].[open],&#xA;	[BTC-2019min].[high],&#xA;	[BTC-2019min].[low],&#xA;	[BTC-2019min].[close] &#xA;from [BTC-2019min]" type="V_String" />
+            <Field name="close" size="50" source="File: select [BTC-2019min].[date],&#xA;	[BTC-2019min].[symbol],&#xA;	[BTC-2019min].[open],&#xA;	[BTC-2019min].[high],&#xA;	[BTC-2019min].[low],&#xA;	[BTC-2019min].[close] &#xA;from [BTC-2019min]" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="450" y="666" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <Query>select [BTC-2020min].[date],
+	[BTC-2020min].[symbol],
+	[BTC-2020min].[open],
+	[BTC-2020min].[high],
+	[BTC-2020min].[low],
+	[BTC-2020min].[close] 
+from [BTC-2020min]</Query>
+            <TableStyle>Quoted</TableStyle>
+            <PostSQL />
+            <CacheData>False</CacheData>
+            <Table />
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">6cc2270c-b09e-4400-9a3b-d381255a9571</Connection>
+            <NoProgress>True</NoProgress>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:Microsoft SQL Server ODBC DSN-less
+Query=select [BTC-2020min].[date],...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="date" size="50" source="File: select [BTC-2020min].[date],&#xA;	[BTC-2020min].[symbol],&#xA;	[BTC-2020min].[open],&#xA;	[BTC-2020min].[high],&#xA;	[BTC-2020min].[low],&#xA;	[BTC-2020min].[close] &#xA;from [BTC-2020min]" type="V_String" />
+            <Field name="symbol" size="50" source="File: select [BTC-2020min].[date],&#xA;	[BTC-2020min].[symbol],&#xA;	[BTC-2020min].[open],&#xA;	[BTC-2020min].[high],&#xA;	[BTC-2020min].[low],&#xA;	[BTC-2020min].[close] &#xA;from [BTC-2020min]" type="V_String" />
+            <Field name="open" size="50" source="File: select [BTC-2020min].[date],&#xA;	[BTC-2020min].[symbol],&#xA;	[BTC-2020min].[open],&#xA;	[BTC-2020min].[high],&#xA;	[BTC-2020min].[low],&#xA;	[BTC-2020min].[close] &#xA;from [BTC-2020min]" type="V_String" />
+            <Field name="high" size="50" source="File: select [BTC-2020min].[date],&#xA;	[BTC-2020min].[symbol],&#xA;	[BTC-2020min].[open],&#xA;	[BTC-2020min].[high],&#xA;	[BTC-2020min].[low],&#xA;	[BTC-2020min].[close] &#xA;from [BTC-2020min]" type="V_String" />
+            <Field name="low" size="50" source="File: select [BTC-2020min].[date],&#xA;	[BTC-2020min].[symbol],&#xA;	[BTC-2020min].[open],&#xA;	[BTC-2020min].[high],&#xA;	[BTC-2020min].[low],&#xA;	[BTC-2020min].[close] &#xA;from [BTC-2020min]" type="V_String" />
+            <Field name="close" size="50" source="File: select [BTC-2020min].[date],&#xA;	[BTC-2020min].[symbol],&#xA;	[BTC-2020min].[open],&#xA;	[BTC-2020min].[high],&#xA;	[BTC-2020min].[low],&#xA;	[BTC-2020min].[close] &#xA;from [BTC-2020min]" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="450" y="810" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <Query>select [BTC-2021min].[date],
+	[BTC-2021min].[symbol],
+	[BTC-2021min].[open],
+	[BTC-2021min].[high],
+	[BTC-2021min].[low],
+	[BTC-2021min].[close] 
+from [BTC-2021min]</Query>
+            <TableStyle>Quoted</TableStyle>
+            <PostSQL />
+            <CacheData>False</CacheData>
+            <Table />
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">6cc2270c-b09e-4400-9a3b-d381255a9571</Connection>
+            <NoProgress>True</NoProgress>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:Microsoft SQL Server ODBC DSN-less
+Query=select [BTC-2021min].[date],...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="date" size="50" source="File: select [BTC-2021min].[date],&#xA;	[BTC-2021min].[symbol],&#xA;	[BTC-2021min].[open],&#xA;	[BTC-2021min].[high],&#xA;	[BTC-2021min].[low],&#xA;	[BTC-2021min].[close] &#xA;from [BTC-2021min]" type="V_String" />
+            <Field name="symbol" size="50" source="File: select [BTC-2021min].[date],&#xA;	[BTC-2021min].[symbol],&#xA;	[BTC-2021min].[open],&#xA;	[BTC-2021min].[high],&#xA;	[BTC-2021min].[low],&#xA;	[BTC-2021min].[close] &#xA;from [BTC-2021min]" type="V_String" />
+            <Field name="open" size="50" source="File: select [BTC-2021min].[date],&#xA;	[BTC-2021min].[symbol],&#xA;	[BTC-2021min].[open],&#xA;	[BTC-2021min].[high],&#xA;	[BTC-2021min].[low],&#xA;	[BTC-2021min].[close] &#xA;from [BTC-2021min]" type="V_String" />
+            <Field name="high" size="50" source="File: select [BTC-2021min].[date],&#xA;	[BTC-2021min].[symbol],&#xA;	[BTC-2021min].[open],&#xA;	[BTC-2021min].[high],&#xA;	[BTC-2021min].[low],&#xA;	[BTC-2021min].[close] &#xA;from [BTC-2021min]" type="V_String" />
+            <Field name="low" size="50" source="File: select [BTC-2021min].[date],&#xA;	[BTC-2021min].[symbol],&#xA;	[BTC-2021min].[open],&#xA;	[BTC-2021min].[high],&#xA;	[BTC-2021min].[low],&#xA;	[BTC-2021min].[close] &#xA;from [BTC-2021min]" type="V_String" />
+            <Field name="close" size="50" source="File: select [BTC-2021min].[date],&#xA;	[BTC-2021min].[symbol],&#xA;	[BTC-2021min].[open],&#xA;	[BTC-2021min].[high],&#xA;	[BTC-2021min].[low],&#xA;	[BTC-2021min].[close] &#xA;from [BTC-2021min]" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="978" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="date" selected="True" type="Date" size="10" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings>
+        <Position x="1062" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"date","symbol","open","high","low","close"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1170" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File />
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions UseDcm="true" MaxRecords="" Format="23">
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TableStyle>Quoted</TableStyle>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Table>bitcoin_stocks</Table>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <OutputOption>Create</OutputOption>
+            <Connection DcmType="ConnectionId">05d7376e-1101-4e5c-908d-14e07526b0c1</Connection>
+            <Projection />
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:Microsoft SQL Server ODBC DSN-less — Username and password
+Table=bitcoin_stocks</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1158" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File />
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions UseDcm="true" MaxRecords="" Format="23">
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TableStyle>Quoted</TableStyle>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Table>headlines</Table>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <OutputOption>Create</OutputOption>
+            <Connection DcmType="ConnectionId">05d7376e-1101-4e5c-908d-14e07526b0c1</Connection>
+            <Projection />
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:Microsoft SQL Server ODBC DSN-less — Username and password
+Table=headlines</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="37" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output26" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection name="#5">
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="49" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output26" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Aleryx_Autosave</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="3e1765ab-30f2-4cf4-9d4f-179535e1d807" />
+      <Telemetry>
+        <PreviousWorkflowId value="aed894eb-1db7-4791-a115-a893230730b2" />
+        <OriginWorkflowId value="b4c4fd0c-1791-45a0-9300-c2087155b951" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
